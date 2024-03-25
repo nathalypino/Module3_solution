@@ -1,0 +1,112 @@
+/* styles.css */
+
+body{
+  font-size: 14px;
+  color:black;
+  background-color: white;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+
+.navbar {
+  position:relative;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+ 
+}
+
+
+.navbar-dark .navbar-brand {
+  color: white;
+  font-family: Arial;
+  position: relative;
+  padding: 15px;
+  font-size: 30px;
+
+}
+
+h1{
+    font-weight: bold;
+}
+
+.navbar-nav{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content-box{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  color: black;
+  padding: 15px;
+  background-color: lightgray;
+  text-align: justify;
+}
+
+
+p {
+  margin: 0 0 10px;
+}
+
+.top{
+  color: fuchsia;
+}
+
+
+#chicken{
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#beef{
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#sushi{
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item{
+  color: white;
+  padding: 10px;
+  display: block;
+  margin: 0;
+}
+
+
+.navbar-nav .nav-item{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+a:hover{
+  color: violet;
+  text-decoration: none;
+}
+
+li.nav-link.d-md-none{
+  margin: -6px;
+}
+
+li.nav-link.d-md-none:hover{
+  margin: -6px;
+  background-color: gray;
+}
